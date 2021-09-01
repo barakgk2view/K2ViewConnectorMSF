@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$ref": "#/definitions/schema",
+  "definitions": {"schema": {
+    "additionalProperties": true,
+    "type": "object",
+    "example": "[{ \"LU name\": \"DOX_BSS\",\"Instance\": \"1\", \"Status\": \"Success\",  \"*Note\": \"\" }]"
+  }}
+}

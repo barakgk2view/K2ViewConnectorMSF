@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$ref": "#/definitions/schema",
+  "definitions": {"schema": {
+    "additionalProperties": true,
+    "type": "object",
+    "example": {"value": "{\r\n\t\"tableName\": [\r\n\t\t{\r\n\t\t\t\"columnName\":\"value\"\r\n\t\t}\r\n\t]\r\n}"}
+  }}
+}

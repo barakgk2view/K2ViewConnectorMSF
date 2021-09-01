@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$ref": "#/definitions/schema",
+  "definitions": {"schema": {
+    "additionalProperties": true,
+    "type": "object",
+    "properties": {
+      "password": {"type": "string"},
+      "logout": {"type": "string"},
+      "apikey": {"type": "string"},
+      "currLocation": {"type": "string"},
+      "username": {"type": "string"}
+    }
+  }}
+}

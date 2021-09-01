@@ -1,0 +1,15 @@
+#% Rest Connector Descriptor 1.0
+
+apiSpec:
+  url: /Users/barak/msf_api_spec/K2V_APIDOC.json
+
+connectorName: Fabric Rest-api
+connectorDescription: Fabric Rest api
+
+connectorGav:
+  groupId: com.mulesoft.connectors
+  artifactId: fabric-rest-api
+  version: 1.0.0-SNAPSHOT
+
+baseUri:
+  type: parameter

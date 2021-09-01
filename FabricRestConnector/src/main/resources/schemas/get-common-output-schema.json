@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$ref": "#/definitions/schema",
+  "definitions": {"schema": {
+    "additionalProperties": true,
+    "type": "object",
+    "example": "{\n \"tableName\": {\n    \"columns\": {\n      \"columnName\": \"type\",\n      \"columnName\": \"type\",\n    },\n    \"keys\": [\n      {\n        \"type\": \"<primary|index>\",\n        \"unique\": true,\n        \"fields\": [\n          \"fieldName\"\n        ]\n      }\n    ],\n    \"links\": {\n      \"in\": [\n        {\n           \"from\": {\n               \"table\": \"tableName\",\n               \"column\": \"columnName\"\n           }\n           \"to\": {\n               \"population\": \"populationName\",\n               \"column\": \"columnName\"\n           }\n        }\n      ],\n      \"out\": [\n        {\n         \"from\": {\n               \"column\": \"columnName\"\n           }\n           \"to\": {\n               \"table\": \"tableName\",\n               \"population\": \"populationName\",\n               \"column\": \"columnName\"\n           }\n        }\n      ]\n    }\n  }\n}"
+  }}
+}

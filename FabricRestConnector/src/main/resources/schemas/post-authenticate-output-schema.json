@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$ref": "#/definitions/schema",
+  "definitions": {"schema": {
+    "additionalProperties": true,
+    "type": "object",
+    "properties": {
+      "response": {"type": "string"},
+      "url": {"type": "string"}
+    },
+    "example": "{\"response\":\"OK\", \"url\": null}"
+  }}
+}
